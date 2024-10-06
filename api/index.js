@@ -1,8 +1,8 @@
 const express = require("express");
 const app = express();
 const port = 5000;
-// const cors = require('cors')
-// app.use(cors())
+const cors = require('cors')
+app.use(cors())
 
 app.get("/", (req, res) => { 
   res.type('html').send("<h1>Portfolio api</h1>")

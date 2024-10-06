@@ -1,6 +1,6 @@
 const express = require("express");
 const app = express();
-const port = process.env.PORT || 3001;
+const port = 5000;
 const cors = require('cors')
 //allow origin from all
 app.use(cors())

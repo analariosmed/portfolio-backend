@@ -6,6 +6,10 @@ const cors = require('cors')
 app.use(cors())
 
 
+app.get("/", (req, res) => { 
+  res.type('html').send("<h1>Portfolio api</h1>")
+});
+
 app.get("/api", (req, res) => { 
   res.type('json').send(json)
 });

@@ -167,13 +167,13 @@ etag@^1.8.1, etag@~1.8.1:
   resolved "https://registry.npmjs.org/etag/-/etag-1.8.1.tgz"
   integrity sha1-Qa4u62XvpiJorr/qg6x9eSmbCIc=
 
-"express-hello-world@file:":
+"express-portfolio@file:":
   version "1.0.0"
   resolved "file:"
   dependencies:
     cors "^2.8.5"
     express "^5.0.0"
-    express-hello-world "file:"
+    express-portfolio "file:"
 
 express@^5.0.0:
   version "5.0.0"

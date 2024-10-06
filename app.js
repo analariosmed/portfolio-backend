@@ -72,3 +72,6 @@ const json = `
   ]
 }
 `
+
+// Export the Express API
+module.exports = app

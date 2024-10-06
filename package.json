@@ -13,6 +13,7 @@
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^5.0.0",
-    "express-portfolio": "file:"
+    "express-portfolio": "file:",
+    "mime-db": "^1.53.0"
   }
 }

@@ -12,6 +12,16 @@ app.get("/api", (req, res) => {
   res.type('json').send(json)
 });
 
+app.get("/api/:id", (req, res) => { 
+  const id = parseInt(req.params.id, 10);
+  const data = JSON.parse(json);
+  if (id >= 0 && id <= data.portfolio.length) {
+    res.type('json').send(data.portfolio[id]);
+  } else {
+    res.status(404).send({ error: "Project not found" });
+  }
+});
+
 app.listen(port, () => console.log(`Portfolio app listening on port ${port}!`));
 
 const json = `

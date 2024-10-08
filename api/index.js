@@ -43,7 +43,7 @@ const json = `{
   "portfolio": [
     {
       "name": "Hi-Tech Order Management System",
-      "description": "This system is made using Microsoft Visual Studio 2022, C#, and SQL Server 2022/2019. Its main goal is to make managing orders, keeping track of inventory, dealing with customers, and managing employees easier and more organized.",
+      "description": "This system is made using Microsoft Visual Studio 2022, C#, and SQL Server 2022/2019. Its main goal is to make managing orders, keeping track of inventory, dealing with customers, and managing employees easier and more organized.                                                            ",
       "url": "https://github.com/analariosmed/TechDistribution/blob/master/README.md",
       "image": "images/tech.jpg"
     },
@@ -55,7 +55,7 @@ const json = `{
     },
     {
       "name": "Food-Mood Application",
-      "description": "The Mood Food application is designed to help users track their food intake and its impact on mood. Users can input details about the food they consume, including the type, portion size, and time of day, as well as rate their mood before and after eating on a scale of 1 to 10.",
+      "description": "The Mood Food application is designed to help users track their food intake and its impact on mood. Users can input details about the food they consume, including the type, portion size, and time of day, as well as rate their mood before and after eating on a scale of 1 to 10.             ",
       "url": "https://github.com/analariosmed/Food-Mood/blob/master/README.md",
       "image": "images/foog.jpg"
     }
